@@ -62,7 +62,7 @@ public class ControllerMain implements Initializable {
 	@FXML
 	private MenuItem startSniffer;
 	@FXML
-	private MenuItem flitters;
+	private MenuItem filters;
 	@FXML
 	private ListView<PcapPacket> listPackets;//이 리스트로 파일에 담을 데이터관리
 	@FXML
@@ -99,10 +99,10 @@ public class ControllerMain implements Initializable {
 	private long ipv6N = 0;
 	private long otherN = 0;
 	FXMLLoader fxmlLoaderInterface;
-	FXMLLoader fxmlLoaderFlitter;
+	FXMLLoader fxmlLoaderFilter;
 	//Interface + Flitter=> 연계
 	ControllerInterface CtrlInterf;
-	ControllerFlitter CtrlFlitter;
+	ControllerFilter CtrlFilter;
 	Stage stage = null;
 	StringBuilder errbuf = new StringBuilder();
 	Thread snifferThread = null;
@@ -123,7 +123,7 @@ public class ControllerMain implements Initializable {
 		packetsShow.add(new PcapPacket(0));
 		//우분투에서는 절대경로로 써야하는데 적용안됬음
 		fxmlLoaderInterface = new FXMLLoader(getClass().getResource("interface.fxml"));
-		fxmlLoaderFlitter = new FXMLLoader(getClass().getResource("flitter.fxml"));
+		fxmlLoaderFilter = new FXMLLoader(getClass().getResource("filter.fxml"));
 
 		CtrlInterf = fxmlLoaderInterface.getController();
 		
@@ -138,19 +138,19 @@ public class ControllerMain implements Initializable {
 		stageInterface.setScene(new Scene(interfaces));
 		stageInterface.setTitle("네트워크 장비 선택");
 		
-		Parent flitter = null;
+		Parent filter = null;
 		try {
-			flitter = fxmlLoaderFlitter.load();
+			filter = fxmlLoaderFilter.load();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
 		
-		final Stage stageFlitter = new Stage();
-		stageFlitter.setScene(new Scene(flitter));
-		stageFlitter.setTitle("프로토콜 선택");
-		CtrlFlitter = fxmlLoaderFlitter.getController();
+		final Stage stageFilter = new Stage();
+		stageFilter.setScene(new Scene(filter));
+		stageFilter.setTitle("프로토콜 선택");
+		CtrlFilter = fxmlLoaderFilter.getController();
 		
-		CtrlFlitter.setMainController(this);
+		CtrlFilter.setMainController(this);
 		
 		//리스너-> 총계 표현
 		packets.addListener((ListChangeListener<PcapPacket>) c -> {
@@ -248,10 +248,10 @@ public class ControllerMain implements Initializable {
 				stageInterface.show();
 			}
 		});
-		flitters.setOnAction(new EventHandler<javafx.event.ActionEvent>() {
+		filters.setOnAction(new EventHandler<javafx.event.ActionEvent>() {
 			@Override
 			public void handle(javafx.event.ActionEvent event) {
-				stageFlitter.show();
+				stageFilter.show();
 			}
 		});
 		
@@ -327,17 +327,17 @@ public class ControllerMain implements Initializable {
 		});
 	}
 
-	public synchronized void flitterChanged() {
+	public synchronized void filterChanged() {
 		System.out.println("update list.");
 		packetsShow.clear();
 		packetsShow.add(new PcapPacket(0));
-		http = CtrlFlitter.isHttp();
-		arp = CtrlFlitter.isArp();
-		icmp = CtrlFlitter.isIcmp();
-		tcp = CtrlFlitter.isTcp();
-		udp = CtrlFlitter.isUdp();
-		ip4 = CtrlFlitter.isIp4();
-		ip6 = CtrlFlitter.isIp6();
+		http = CtrlFilter.isHttp();
+		arp = CtrlFilter.isArp();
+		icmp = CtrlFilter.isIcmp();
+		tcp = CtrlFilter.isTcp();
+		udp = CtrlFilter.isUdp();
+		ip4 = CtrlFilter.isIp4();
+		ip6 = CtrlFilter.isIp6();
 		tcpN = 0;
 		udpN = 0;
 		totalN = 0;
