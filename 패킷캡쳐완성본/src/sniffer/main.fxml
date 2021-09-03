@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="451.0" prefWidth="715.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sniffer.ControllerMain">
+   <children>
+      <MenuBar fx:id="menuBar">
+        <menus>
+          <Menu mnemonicParsing="false" text="작동">
+            <items>
+              <MenuItem fx:id="startSniffer" mnemonicParsing="false" text="스니핑!" />
+                <MenuItem fx:id="stopSniffer" mnemonicParsing="false" text="중지!" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="옵션">
+            <items>
+              <MenuItem fx:id="selectInterface" mnemonicParsing="false" text="장비선택" />
+                <MenuItem fx:id="flitters" mnemonicParsing="false" text="필터선택" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="기타">
+            <items>
+              <MenuItem fx:id="fileSave" mnemonicParsing="false" text="저장" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <ListView fx:id="listPackets" layoutX="15.0" layoutY="54.0" prefHeight="200.0" prefWidth="685.0" />
+      <TextArea fx:id="dataDump" editable="false" layoutX="16.0" layoutY="260.0" prefHeight="177.0" prefWidth="456.0" />
+      <Label layoutX="550.0" layoutY="260.0" text="통계" />
+      <Label layoutX="500.0" layoutY="290.0" text="TCP" />
+      <Label layoutX="500.0" layoutY="320.0" text="UDP" />
+      <Label layoutX="500.0" layoutY="350.0" text="ICMP" />
+      <Label layoutX="500.0" layoutY="380.0" text="HTTP" />
+      <Label fx:id="tcpPacket" layoutX="560.0" layoutY="290.0" text="0" />
+      <Label fx:id="udpPacket" layoutX="560.0" layoutY="320.0" text="0" />
+      <Label fx:id="icmpPacket" layoutX="560.0" layoutY="350.0" text="0" />
+      <Label fx:id="httpPacket" layoutX="560.0" layoutY="380.0" text="0" />
+      <Label layoutX="600.0" layoutY="290.0" text="ARP" />
+      <Label layoutX="600.0" layoutY="320.0" text="IPv4" />
+      <Label layoutX="600.0" layoutY="350.0" text="IPv6" />
+      <Label layoutX="600.0" layoutY="380.0" text="기타" />
+      <Label fx:id="arpPacket" layoutX="660.0" layoutY="290.0" text="0" />
+      <Label fx:id="ipv4Packet" layoutX="660.0" layoutY="320.0" text="0" />
+      <Label fx:id="ipv6Packet" layoutX="660.0" layoutY="350.0" text="0" />
+      <Label fx:id="otherPacket" layoutX="660.0" layoutY="380.0" text="0" />
+      <Label layoutX="540.0" layoutY="410.0" text="총계" />
+      <Label fx:id="totalPacket" layoutX="620.0" layoutY="410.0" text="0" />
+   </children>
+</AnchorPane>
