@@ -4,7 +4,7 @@
 <?import javafx.scene.control.CheckBox?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="289.0" prefWidth="419.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sniffer.ControllerFlitter">
+<AnchorPane prefHeight="289.0" prefWidth="419.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sniffer.ControllerFilter">
    <children>
       <CheckBox fx:id="checkIp4" layoutX="100.0" layoutY="60.0" mnemonicParsing="false" selected="true" text="IPv4" />
       <CheckBox fx:id="checkIp6" layoutX="240.0" layoutY="60.0" mnemonicParsing="false" selected="true" text="IPv6" />
