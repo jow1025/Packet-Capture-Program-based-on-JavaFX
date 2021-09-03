@@ -27,9 +27,13 @@ https://gluonhq.com/products/javafx/<br>
 6. JavaFX 라이브러리를 import할 차례입니다. 프로젝트 우클릭->Build Path->Add External Achives를 클릭한 뒤 압축 해제한 javafx폴더의 하위 lib폴더의 .jar파일을 모두 import해줍니다. (총 8개의 파일)<br>
 7. 이클립스의 상단의 windows배너->preferences 클릭 후 왼쪽 목록에서 Run/Debug-> String Substitution을 클릭 한 후 새 목록을 추가하여 name을 PATH_TO_FX로, value를 javafx폴더의 lib폴더 경로를 지정해준 뒤 Apply해줍니다.<br>
 8. 실행 프로젝트 우클릭-> Properties->Run/Debug Settings클릭 후 Launch configurations for '프로젝트 명" 아래에 뜨는 Main을 더블클릭 후 VM arguments에 아래 내용을 추가한 뒤 apply합니다.<br>
-<b><h3>--module-path ${PATH_TO_FX} --add-modules=javafx.controls,javafx.fxml<br><br>
+<b><h3>--module-path ${PATH_TO_FX} --add-modules=javafx.controls,javafx.fxml</h3><br>
   
-<img width="436" alt="캡쳐17" src="https://user-images.githubusercontent.com/67903177/132025357-27a75152-d1eb-43c9-828a-c7162556c042.PNG">
+<img width="436" alt="캡쳐17" src="https://user-images.githubusercontent.com/67903177/132025357-27a75152-d1eb-43c9-828a-c7162556c042.PNG"><br>
+ 
+ 9. 디렉토리 구조
+ <img width="165" alt="디렉토리구조" src="https://user-images.githubusercontent.com/67903177/132032354-fe8f17b2-2be8-43b2-8389-5dc45e89a550.PNG">
+
  <h2><br>실행 화면</h3>
  
  ![image](https://user-images.githubusercontent.com/67903177/132029217-b84bd3f2-52a8-4340-ad2e-9d65ee7070ec.png)
