@@ -21,7 +21,7 @@
           <Menu mnemonicParsing="false" text="옵션">
             <items>
               <MenuItem fx:id="selectInterface" mnemonicParsing="false" text="장비선택" />
-                <MenuItem fx:id="flitters" mnemonicParsing="false" text="필터선택" />
+                <MenuItem fx:id="filters" mnemonicParsing="false" text="필터선택" />
             </items>
           </Menu>
           <Menu mnemonicParsing="false" text="기타">
