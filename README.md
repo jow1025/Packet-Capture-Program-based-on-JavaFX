@@ -33,7 +33,7 @@ https://gluonhq.com/products/javafx/<br>
  
  ![image](https://user-images.githubusercontent.com/67903177/132029217-b84bd3f2-52a8-4340-ad2e-9d65ee7070ec.png)
  
-<img src="https://user-images.githubusercontent.com/67903177/132027921-7daad103-4328-401a-a930-0674a852be1d.png" width="800" height="200"/><br>
+<img src="https://user-images.githubusercontent.com/67903177/132027921-7daad103-4328-401a-a930-0674a852be1d.png" width="700" height="150"/><br>
  
 <img src="https://user-images.githubusercontent.com/67903177/132028766-7678313a-ca91-4369-bd4d-1566c86fd20e.png" width="800" height="300"/><br>
  
