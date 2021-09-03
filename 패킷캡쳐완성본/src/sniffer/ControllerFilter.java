@@ -9,7 +9,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.CheckBox;
 import javafx.stage.WindowEvent;
 
-public class ControllerFlitter implements Initializable {
+public class ControllerFilter implements Initializable {
 	boolean http = true;
 	boolean icmp = true;
 	boolean arp = true;
@@ -54,7 +54,7 @@ public class ControllerFlitter implements Initializable {
 		ip6 = checkIp6.isSelected();
 		// choiceChanged.setValue(false);
 		//필터 체인지->이벤트 발생인데 이부분 때문에 우분투가 안되나?
-		ctrlMain.flitterChanged();
+		ctrlMain.filterChanged();
 		Event.fireEvent(checkArp.getScene().getWindow(),
 				new WindowEvent(checkArp.getScene().getWindow(), WindowEvent.WINDOW_CLOSE_REQUEST));
 	}
