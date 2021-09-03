@@ -1,0 +1,85 @@
+
+Frame:
+Frame:                                  number = 0
+Frame:                               timestamp = 2020-12-03 23:56:22.678
+Frame:                             wire length = 363 bytes
+Frame:                         captured length = 363 bytes
+Frame:
+Eth:  ******* Ethernet - "Ethernet" - offset=0 (0x0) length=14 protocol suite=LAN
+Eth: 
+Eth:                              destination = 00:26:66:c6:db:20
+Eth:                    .... ..0. .... .... = [0] LG bit
+Eth:                    .... ...0 .... .... = [0] IG bit
+Eth:                                   source = 50:e0:85:cb:29:e2
+Eth:                    .... ..0. .... .... = [0] LG bit
+Eth:                    .... ...0 .... .... = [0] IG bit
+Eth:                                     type = 0x800 (2048) [ip version 4]
+Eth: 
+Ip:  ******* Ip4 - "ip version 4" - offset=14 (0xE) length=20 protocol suite=NETWORK
+Ip: 
+Ip:                                  version = 4
+Ip:                                     hlen = 5 [5 * 4 = 20 bytes, No Ip Options]
+Ip:                                 diffserv = 0x0 (0)
+Ip:                    0000 00.. = [0] code point: not set
+Ip:                    .... ..0. = [0] ECN bit: not set
+Ip:                    .... ...0 = [0] ECE bit: not set
+Ip:                                   length = 349
+Ip:                                       id = 0xF714 (63252)
+Ip:                                    flags = 0x2 (2)
+Ip:                    0.. = [0] reserved
+Ip:                    .1. = [1] DF: do not fragment: set
+Ip:                    ..0 = [0] MF: more fragments: not set
+Ip:                                   offset = 0
+Ip:                                      ttl = 128 [time to live]
+Ip:                                     type = 6 [next: Transmission Control]
+Ip:                                 checksum = 0x0 (0) [incorrect: 0xC75A]
+Ip:                                   source = 192.168.0.8
+Ip:                              destination = 210.89.168.33
+Ip: 
+Tcp:  ******* Tcp offset=34 (0x22) length=20 
+Tcp: 
+Tcp:                                   source = 2097
+Tcp:                              destination = 443
+Tcp:                                      seq = 0x34FB0F91 (888868753)
+Tcp:                                      ack = 0xC434668B (3291768459)
+Tcp:                                     hlen = 5
+Tcp:                                 reserved = 0
+Tcp:                                    flags = 0x18 (24)
+Tcp:                    0... .... = [0] cwr: reduced (cwr)
+Tcp:                    .0.. .... = [0] ece: ECN echo flag
+Tcp:                    ..0. .... = [0] ack: urgent, out-of-band data
+Tcp:                    ...1 .... = [1] ack: acknowledgment
+Tcp:                    .... 1... = [1] ack: push current segment of data
+Tcp:                    .... .0.. = [0] ack: reset connection
+Tcp:                    .... ..0. = [0] ack: synchronize connection, startup
+Tcp:                    .... ...0 = [0] fin: closing down connection
+Tcp:                                   window = 508
+Tcp:                                 checksum = 0x3C7B (15483) [incorrect: 0xD299]
+Tcp:                                   urgent = 0
+Tcp: 
+
+
+0000:*00 26 66 c6  db 20 50 e0  85 cb 29 e2  08 00*45 00    .&f.. P...)...E.
+0010: 01 5d f7 14  40 00 80 06  00 00 c0 a8  00 08 d2 59    .]..@..........Y
+0020: a8 21*08 31  01 bb 34 fb  0f 91 c4 34  66 8b 50 18    .!.1..4....4f.P.
+0030: 01 fc 3c 7b  00 00*17 03  03 01 30 ae  c7 ce 5f 93    ..<{......0..._.
+0040: 80 d9 df b1  c3 94 df 77  31 0e 86 9d  65 b8 76 c5    .......w1...e.v.
+0050: 32 99 8c 25  1c 6d 78 9b  e3 02 38 ec  72 a5 6f 5e    2..%.mx...8.r.o^
+0060: 50 81 22 1d  73 91 87 21  1a e2 f9 d2  20 09 6b d6    P.".s..!.... .k.
+0070: 45 81 f1 db  ea 1c 31 81  3f 32 e6 cb  6b 98 ca 30    E.....1.?2..k..0
+0080: 5d 29 21 25  eb ea 9f 22  5f 17 9c f7  99 16 d9 77    ])!%..."_......w
+0090: 9c 1e 69 3d  1f 75 78 9e  12 9d 82 34  d6 2e 8e 67    ..i=ux....4...g
+00a0: a4 ed 2e 52  6a 8f b6 f4  66 14 4c d2  23 e5 71 c3    ...Rj...f.L.#.q.
+00b0: 55 40 80 6e  59 42 eb e5  75 1e 2b 03  7f 47 e8 e0    U@.nYB..u.+..G..
+00c0: d5 7a 74 81  0d 7e 32 39  08 ad 29 1a  5d b8 de 4d    .zt..~29..).]..M
+00d0: 48 fa 59 91  66 25 f7 a9  bf 16 92 4e  90 dd 07 71    H.Y.f%.....N...q
+00e0: bd 6c 91 dd  37 82 41 9e  13 cc cf 86  9f 0a de 59    .l..7.A........Y
+00f0: 57 37 a9 20  48 d6 53 f7  82 51 00 8b  80 b4 cb cb    W7. H.S..Q......
+0100: 6a 64 66 1f  4c 10 f2 37  4b ed 88 c2  ef 8b b7 dd    jdfL..7K.......
+0110: be 10 d8 18  f1 2f 02 f6  63 a3 5c 80  66 67 4f 71    ...../..c.\.fgOq
+0120: ea 8d b1 20  97 39 87 c0  a2 1c c9 97  d3 7a 98 2f    ... .9.......z./
+0130: ff 19 05 11  4e 7b 46 3d  05 c5 94 55  51 99 12 06    ....N{F=...UQ...
+0140: b1 4e bb 61  83 a9 14 e2  47 50 ef f8  c8 6e bb df    .N.a....GP...n..
+0150: 0d c7 a5 38  c1 59 f5 e7  20 da 8a e5  1a aa 90 49    ...8.Y.. ......I
+0160: 45 83 34 9d  6f ce da 10  8d 4b a0                    E.4.o....K.     
+
