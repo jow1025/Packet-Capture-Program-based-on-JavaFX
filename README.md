@@ -1,11 +1,12 @@
 # Packet-Capture-Program-based-on-JavaFX
-JavaFX GUI기반의 패킷캡쳐 프로그램입니다. 오픈 소스 패킷 분석 프로그램인 Wireshak의 기능을 간단하게 구현해보았습니다.
+JavaFX GUI기반의 패킷캡쳐 프로그램입니다. 오픈 소스 패킷 분석 프로그램인 Wireshark의 기능을 간단하게 구현해보았습니다.<br>
+Java에서 JnetPcap라이브러리를 이용하여 패킷을 검출하고 모니터링 할 수 있습니다.
 
 기능: 패킷 캡쳐 시작/중지, 장비선택(네트워크 인터페이스 카드), 필터링(특정 프로토콜), 저장(txt파일)
 
 검출 가능 프로토콜: TCP, UDP, ICMP, HTTP, ARP, IPv4
 
-*DNS 프로토콜은 Jnetpcap에서 구현된 api가 없어서 CMD창에서 Nslookup 명령어를 이용해 UDP프로토콜로 일부 확인할 수 있습니다.
+*DNS 프로토콜은 Jnetpcap에서 구현된 api가 없어서 CMD창에서 Nslookup 명령어를 이용해 UDP프로토콜로 일부 확인할 수 있습니다.<br>
 *ICMP 프로토콜은 CMD창에서 Ping 명령어로 확인할 수 있습니다.
 
 
