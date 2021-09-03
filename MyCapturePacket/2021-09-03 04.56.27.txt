@@ -1,0 +1,946 @@
+
+
+number  0
+timestamp  2021-09-03 16:56:23.884
+wire length  167 bytes
+captured length  167 bytes
+******* Ethernet - "Ethernet" - offset0 (0x0) length=14 protocol suite=LAN
+destination  01:00:5e:7f:ff:fa
+.... ..0. .... ....  [0] LG bit
+.... ...0 .... ....  [0] IG bit
+source  8a:3a:ed:54:69:0b
+.... ..0. .... ....  [0] LG bit
+.... ...0 .... ....  [0] IG bit
+type  0x800 (2048) [ip version 4]
+******* Ip4 - "ip version 4" - offset14 (0xE) length=20 protocol suite=NETWORK
+version  4
+hlen  5 [5 * 4 = 20 bytes, No Ip Options]
+diffserv  0x0 (0)
+0000 00..  [0] code point: not set
+.... ..0.  [0] ECN bit: not set
+.... ...0  [0] ECE bit: not set
+length  153
+id  0xEED5 (61141)
+flags  0x2 (2)
+0..  [0] reserved
+.1.  [1] DF: do not fragment: set
+..0  [0] MF: more fragments: not set
+offset  0
+ttl  1 [time to live]
+type  17 [next: User Datagram]
+checksum  0xD9D2 (55762) [correct]
+source  192.168.0.9
+destination  239.255.255.250
+******* Udp offset34 (0x22) length=8 
+source  38301
+destination  1900
+length  133
+checksum  0x83A5 (33701) [correct]
+******* Payload offset42 (0x2A) length=125 
+002a: 4d 2d 53 45  41 52 43 48  20 2a 20 48  54 54 50 2f    M-SEARCH * HTTP/
+003a: 31 2e 31 0d  0a 48 4f 53  54 3a 20 32  33 39 2e 32    1.1..HOST: 239.2
+004a: 35 35 2e 32  35 35 2e 32  35 30 3a 31  39 30 30 0d    55.255.250:1900.
+005a: 0a 4d 41 4e  3a 20 22 73  73 64 70 3a  64 69 73 63    .MAN: "ssdp:disc
+006a: 6f 76 65 72  22 0d 0a 4d  58 3a 20 31  0d 0a 53 54    over"..MX: 1..ST
+007a: 3a 20 75 72  6e 3a 64 69  61 6c 2d 6d  75 6c 74 69    : urn:dial-multi
+008a: 73 63 72 65  65 6e 2d 6f  72 67 3a 73  65 72 76 69    screen-org:servi
+009a: 63 65 3a 64  69 61 6c 3a  31 0d 0a 0d  0a             ce:dial:1....   
+------------
+
+0000:*01 00 5e 7f  ff fa 8a 3a  ed 54 69 0b  08 00*45 00    ..^....:.Ti...E.
+0010: 00 99 ee d5  40 00 01 11  d9 d2 c0 a8  00 09 ef ff    ....@...........
+0020: ff fa*95 9d  07 6c 00 85  83 a5*4d 2d  53 45 41 52    .....l....M-SEAR
+0030: 43 48 20 2a  20 48 54 54  50 2f 31 2e  31 0d 0a 48    CH * HTTP/1.1..H
+0040: 4f 53 54 3a  20 32 33 39  2e 32 35 35  2e 32 35 35    OST: 239.255.255
+0050: 2e 32 35 30  3a 31 39 30  30 0d 0a 4d  41 4e 3a 20    .250:0060: 22 73 73 64  70 3a 64 69  73 63 6f 76  65 72 22 0d    "ssdp:discover".
+0070: 0a 4d 58 3a  20 31 0d 0a  53 54 3a 20  75 72 6e 3a    .MX: 1..ST:0080: 64 69 61 6c  2d 6d 75 6c  74 69 73 63  72 65 65 6e    dial-multiscreen
+0090: 2d 6f 72 67  3a 73 65 72  76 69 63 65  3a 64 69 61    -org:service:dia
+00a0: 6c 3a 31 0d  0a 0d 0a*                                l:1....         
+
+------------
+
+
+
+number  1
+timestamp  2021-09-03 16:56:24.087
+wire length  167 bytes
+captured length  167 bytes
+******* Ethernet - "Ethernet" - offset0 (0x0) length=14 protocol suite=LAN
+destination  01:00:5e:7f:ff:fa
+.... ..0. .... ....  [0] LG bit
+.... ...0 .... ....  [0] IG bit
+source  8a:3a:ed:54:69:0b
+.... ..0. .... ....  [0] LG bit
+.... ...0 .... ....  [0] IG bit
+type  0x800 (2048) [ip version 4]
+******* Ip4 - "ip version 4" - offset14 (0xE) length=20 protocol suite=NETWORK
+version  4
+hlen  5 [5 * 4 = 20 bytes, No Ip Options]
+diffserv  0x0 (0)
+0000 00..  [0] code point: not set
+.... ..0.  [0] ECN bit: not set
+.... ...0  [0] ECE bit: not set
+length  153
+id  0xEF0C (61196)
+flags  0x2 (2)
+0..  [0] reserved
+.1.  [1] DF: do not fragment: set
+..0  [0] MF: more fragments: not set
+offset  0
+ttl  1 [time to live]
+type  17 [next: User Datagram]
+checksum  0xD99B (55707) [correct]
+source  192.168.0.9
+destination  239.255.255.250
+******* Udp offset34 (0x22) length=8 
+source  38301
+destination  1900
+length  133
+checksum  0x83A5 (33701) [correct]
+******* Payload offset42 (0x2A) length=125 
+002a: 4d 2d 53 45  41 52 43 48  20 2a 20 48  54 54 50 2f    M-SEARCH * HTTP/
+003a: 31 2e 31 0d  0a 48 4f 53  54 3a 20 32  33 39 2e 32    1.1..HOST: 239.2
+004a: 35 35 2e 32  35 35 2e 32  35 30 3a 31  39 30 30 0d    55.255.250:1900.
+005a: 0a 4d 41 4e  3a 20 22 73  73 64 70 3a  64 69 73 63    .MAN: "ssdp:disc
+006a: 6f 76 65 72  22 0d 0a 4d  58 3a 20 31  0d 0a 53 54    over"..MX: 1..ST
+007a: 3a 20 75 72  6e 3a 64 69  61 6c 2d 6d  75 6c 74 69    : urn:dial-multi
+008a: 73 63 72 65  65 6e 2d 6f  72 67 3a 73  65 72 76 69    screen-org:servi
+009a: 63 65 3a 64  69 61 6c 3a  31 0d 0a 0d  0a             ce:dial:1....   
+------------
+
+0000:*01 00 5e 7f  ff fa 8a 3a  ed 54 69 0b  08 00*45 00    ..^....:.Ti...E.
+0010: 00 99 ef 0c  40 00 01 11  d9 9b c0 a8  00 09 ef ff    ....@...........
+0020: ff fa*95 9d  07 6c 00 85  83 a5*4d 2d  53 45 41 52    .....l....M-SEAR
+0030: 43 48 20 2a  20 48 54 54  50 2f 31 2e  31 0d 0a 48    CH * HTTP/1.1..H
+0040: 4f 53 54 3a  20 32 33 39  2e 32 35 35  2e 32 35 35    OST: 239.255.255
+0050: 2e 32 35 30  3a 31 39 30  30 0d 0a 4d  41 4e 3a 20    .250:0060: 22 73 73 64  70 3a 64 69  73 63 6f 76  65 72 22 0d    "ssdp:discover".
+0070: 0a 4d 58 3a  20 31 0d 0a  53 54 3a 20  75 72 6e 3a    .MX: 1..ST:0080: 64 69 61 6c  2d 6d 75 6c  74 69 73 63  72 65 65 6e    dial-multiscreen
+0090: 2d 6f 72 67  3a 73 65 72  76 69 63 65  3a 64 69 61    -org:service:dia
+00a0: 6c 3a 31 0d  0a 0d 0a*                                l:1....         
+
+------------
+
+
+
+number  2
+timestamp  2021-09-03 16:56:24.394
+wire length  167 bytes
+captured length  167 bytes
+******* Ethernet - "Ethernet" - offset0 (0x0) length=14 protocol suite=LAN
+destination  01:00:5e:7f:ff:fa
+.... ..0. .... ....  [0] LG bit
+.... ...0 .... ....  [0] IG bit
+source  8a:3a:ed:54:69:0b
+.... ..0. .... ....  [0] LG bit
+.... ...0 .... ....  [0] IG bit
+type  0x800 (2048) [ip version 4]
+******* Ip4 - "ip version 4" - offset14 (0xE) length=20 protocol suite=NETWORK
+version  4
+hlen  5 [5 * 4 = 20 bytes, No Ip Options]
+diffserv  0x0 (0)
+0000 00..  [0] code point: not set
+.... ..0.  [0] ECN bit: not set
+.... ...0  [0] ECE bit: not set
+length  153
+id  0xEF29 (61225)
+flags  0x2 (2)
+0..  [0] reserved
+.1.  [1] DF: do not fragment: set
+..0  [0] MF: more fragments: not set
+offset  0
+ttl  1 [time to live]
+type  17 [next: User Datagram]
+checksum  0xD97E (55678) [correct]
+source  192.168.0.9
+destination  239.255.255.250
+******* Udp offset34 (0x22) length=8 
+source  38301
+destination  1900
+length  133
+checksum  0x83A5 (33701) [correct]
+******* Payload offset42 (0x2A) length=125 
+002a: 4d 2d 53 45  41 52 43 48  20 2a 20 48  54 54 50 2f    M-SEARCH * HTTP/
+003a: 31 2e 31 0d  0a 48 4f 53  54 3a 20 32  33 39 2e 32    1.1..HOST: 239.2
+004a: 35 35 2e 32  35 35 2e 32  35 30 3a 31  39 30 30 0d    55.255.250:1900.
+005a: 0a 4d 41 4e  3a 20 22 73  73 64 70 3a  64 69 73 63    .MAN: "ssdp:disc
+006a: 6f 76 65 72  22 0d 0a 4d  58 3a 20 31  0d 0a 53 54    over"..MX: 1..ST
+007a: 3a 20 75 72  6e 3a 64 69  61 6c 2d 6d  75 6c 74 69    : urn:dial-multi
+008a: 73 63 72 65  65 6e 2d 6f  72 67 3a 73  65 72 76 69    screen-org:servi
+009a: 63 65 3a 64  69 61 6c 3a  31 0d 0a 0d  0a             ce:dial:1....   
+------------
+
+0000:*01 00 5e 7f  ff fa 8a 3a  ed 54 69 0b  08 00*45 00    ..^....:.Ti...E.
+0010: 00 99 ef 29  40 00 01 11  d9 7e c0 a8  00 09 ef ff    ...)@....~......
+0020: ff fa*95 9d  07 6c 00 85  83 a5*4d 2d  53 45 41 52    .....l....M-SEAR
+0030: 43 48 20 2a  20 48 54 54  50 2f 31 2e  31 0d 0a 48    CH * HTTP/1.1..H
+0040: 4f 53 54 3a  20 32 33 39  2e 32 35 35  2e 32 35 35    OST: 239.255.255
+0050: 2e 32 35 30  3a 31 39 30  30 0d 0a 4d  41 4e 3a 20    .250:0060: 22 73 73 64  70 3a 64 69  73 63 6f 76  65 72 22 0d    "ssdp:discover".
+0070: 0a 4d 58 3a  20 31 0d 0a  53 54 3a 20  75 72 6e 3a    .MX: 1..ST:0080: 64 69 61 6c  2d 6d 75 6c  74 69 73 63  72 65 65 6e    dial-multiscreen
+0090: 2d 6f 72 67  3a 73 65 72  76 69 63 65  3a 64 69 61    -org:service:dia
+00a0: 6c 3a 31 0d  0a 0d 0a*                                l:1....         
+
+------------
+
+
+
+number  3
+timestamp  2021-09-03 16:56:25.418
+wire length  42 bytes
+captured length  42 bytes
+******* Ethernet - "Ethernet" - offset0 (0x0) length=14 protocol suite=LAN
+destination  ff:ff:ff:ff:ff:ff
+.... ..0. .... ....  [2] LG bit
+.... ...0 .... ....  [2] IG bit
+source  00:26:66:c6:db:20
+.... ..0. .... ....  [2] LG bit
+.... ...0 .... ....  [2] IG bit
+type  0x806 (2054)
+******* Arp offset14 (0xE) length=28 
+hardwareType  1 [ETHERNET]
+protocolType  0x800 (2048) [IP]
+hardware size  6 bytes
+protocol size  4 bytes
+op code  1 [REQUEST]
+sender MAC  00:26:66:c6:db:20
+sender IP  192.168.0.1
+target MAC  00:00:00:00:00:00
+target IP  192.168.0.4
+Arp: ------------
+
+0000:*ff ff ff ff  ff ff 00 26  66 c6 db 20  08 06*00 01    .......&f.. ....
+0010: 08 00 06 04  00 01 00 26  66 c6 db 20  c0 a8 00 01    .......&f.. ....
+0020: 00 00 00 00  00 00 c0 a8  00 04*                      ..........      
+
+------------
+
+
+
+number  4
+timestamp  2021-09-03 16:56:26.444
+wire length  42 bytes
+captured length  42 bytes
+******* Ethernet - "Ethernet" - offset0 (0x0) length=14 protocol suite=LAN
+destination  ff:ff:ff:ff:ff:ff
+.... ..0. .... ....  [2] LG bit
+.... ...0 .... ....  [2] IG bit
+source  00:26:66:c6:db:20
+.... ..0. .... ....  [2] LG bit
+.... ...0 .... ....  [2] IG bit
+type  0x806 (2054)
+******* Arp offset14 (0xE) length=28 
+hardwareType  1 [ETHERNET]
+protocolType  0x800 (2048) [IP]
+hardware size  6 bytes
+protocol size  4 bytes
+op code  1 [REQUEST]
+sender MAC  00:26:66:c6:db:20
+sender IP  192.168.0.1
+target MAC  00:00:00:00:00:00
+target IP  192.168.0.4
+Arp: ------------
+
+0000:*ff ff ff ff  ff ff 00 26  66 c6 db 20  08 06*00 01    .......&f.. ....
+0010: 08 00 06 04  00 01 00 26  66 c6 db 20  c0 a8 00 01    .......&f.. ....
+0020: 00 00 00 00  00 00 c0 a8  00 04*                      ..........      
+
+------------
+
+
+
+number  5
+timestamp  2021-09-03 16:56:26.841
+wire length  100 bytes
+captured length  100 bytes
+******* Ethernet - "Ethernet" - offset0 (0x0) length=14 protocol suite=LAN
+destination  50:e0:85:cb:29:e2
+.... ..0. .... ....  [0] LG bit
+.... ...0 .... ....  [2] IG bit
+source  00:26:66:c6:db:20
+.... ..0. .... ....  [0] LG bit
+.... ...0 .... ....  [2] IG bit
+type  0x800 (2048) [ip version 4]
+******* Ip4 - "ip version 4" - offset14 (0xE) length=20 protocol suite=NETWORK
+version  4
+hlen  5 [5 * 4 = 20 bytes, No Ip Options]
+diffserv  0x0 (0)
+0000 00..  [0] code point: not set
+.... ..0.  [0] ECN bit: not set
+.... ...0  [0] ECE bit: not set
+length  86
+id  0x387C (14460)
+flags  0x2 (2)
+0..  [0] reserved
+.1.  [1] DF: do not fragment: set
+..0  [0] MF: more fragments: not set
+offset  0
+ttl  53 [time to live]
+type  6 [next: Transmission Control]
+checksum  0xE81A (59418) [correct]
+source  125.209.230.135
+destination  192.168.0.10
+******* Tcp offset34 (0x22) length=20 
+source  443
+destination  9847
+seq  0x2E043BE5 (772029413)
+ack  0x9C0906D5 (2617837269)
+hlen  5
+reserved  0
+flags  0x18 (24)
+0... ....  [0] cwr: reduced (cwr)
+.0.. ....  [0] ece: ECN echo flag
+..0. ....  [0] ack: urgent, out-of-band data
+...1 ....  [1] ack: acknowledgment
+.... 1...  [1] ack: push current segment of data
+.... .0..  [0] ack: reset connection
+.... ..0.  [0] ack: synchronize connection, startup
+.... ...0  [0] fin: closing down connection
+window  260
+checksum  0x288A (10378) [correct]
+urgent  0
+Tcp: ------------
+
+0000:*50 e0 85 cb  29 e2 00 26  66 c6 db 20  08 00*45 00    P...)..&f.. ..E.
+0010: 00 56 38 7c  40 00 35 06  e8 1a 7d d1  e6 87 c0 a8    .V8|@.5...}.....
+0020: 00 0a*01 bb  26 77 2e 04  3b e5 9c 09  06 d5 50 18    ....&w..;.....P.
+0030: 01 04 28 8a  00 00*17 03  03 00 29 23  ae c9 cd 7e    ..(.......)#...~
+0040: dd 9f 8f 35  35 14 83 f1  d5 e9 2f e7  63 70 19 36    ...55...../.cp.6
+0050: 78 f9 9b bc  c7 01 43 57  c4 a5 0b ca  42 d0 d0 e3    x.....CW....B...
+0060: e3 41 dd d4                                           .A..            
+
+------------
+
+
+
+number  6
+timestamp  2021-09-03 16:56:26.842
+wire length  54 bytes
+captured length  54 bytes
+******* Ethernet - "Ethernet" - offset0 (0x0) length=14 protocol suite=LAN
+destination  00:26:66:c6:db:20
+.... ..0. .... ....  [0] LG bit
+.... ...0 .... ....  [0] IG bit
+source  50:e0:85:cb:29:e2
+.... ..0. .... ....  [0] LG bit
+.... ...0 .... ....  [0] IG bit
+type  0x800 (2048) [ip version 4]
+******* Ip4 - "ip version 4" - offset14 (0xE) length=20 protocol suite=NETWORK
+version  4
+hlen  5 [5 * 4 = 20 bytes, No Ip Options]
+diffserv  0x0 (0)
+0000 00..  [0] code point: not set
+.... ..0.  [0] ECN bit: not set
+.... ...0  [0] ECE bit: not set
+length  40
+id  0xBA08 (47624)
+flags  0x2 (2)
+0..  [0] reserved
+.1.  [1] DF: do not fragment: set
+..0  [0] MF: more fragments: not set
+offset  0
+ttl  128 [time to live]
+type  6 [next: Transmission Control]
+checksum  0x0 (0) [incorrect: 0x1BBC]
+source  192.168.0.10
+destination  125.209.230.135
+******* Tcp offset34 (0x22) length=20 
+source  9847
+destination  443
+seq  0x9C0906D5 (2617837269)
+ack  0x2E043C13 (772029459)
+hlen  5
+reserved  0
+flags  0x11 (17)
+0... ....  [0] cwr: reduced (cwr)
+.0.. ....  [0] ece: ECN echo flag
+..0. ....  [0] ack: urgent, out-of-band data
+...1 ....  [1] ack: acknowledgment
+.... 0...  [0] ack: push current segment of data
+.... .0..  [0] ack: reset connection
+.... ..0.  [0] ack: synchronize connection, startup
+.... ...1  [1] fin: closing down connection
+window  514
+checksum  0x2526 (9510) [incorrect: 0x539E]
+urgent  0
+Tcp: ------------
+
+0000:*00 26 66 c6  db 20 50 e0  85 cb 29 e2  08 00*45 00    .&f.. P...)...E.
+0010: 00 28 ba 08  40 00 80 06  00 00 c0 a8  00 0a 7d d1    .(..@.........}.
+0020: e6 87*26 77  01 bb 9c 09  06 d5 2e 04  3c 13 50 11    ..&w........<.P.
+0030: 02 02 25 26  00 00*                                   ..%&..          
+
+------------
+
+
+
+number  7
+timestamp  2021-09-03 16:56:26.842
+wire length  85 bytes
+captured length  85 bytes
+******* Ethernet - "Ethernet" - offset0 (0x0) length=14 protocol suite=LAN
+destination  50:e0:85:cb:29:e2
+.... ..0. .... ....  [0] LG bit
+.... ...0 .... ....  [2] IG bit
+source  00:26:66:c6:db:20
+.... ..0. .... ....  [0] LG bit
+.... ...0 .... ....  [2] IG bit
+type  0x800 (2048) [ip version 4]
+******* Ip4 - "ip version 4" - offset14 (0xE) length=20 protocol suite=NETWORK
+version  4
+hlen  5 [5 * 4 = 20 bytes, No Ip Options]
+diffserv  0x0 (0)
+0000 00..  [0] code point: not set
+.... ..0.  [0] ECN bit: not set
+.... ...0  [0] ECE bit: not set
+length  71
+id  0x387D (14461)
+flags  0x2 (2)
+0..  [0] reserved
+.1.  [1] DF: do not fragment: set
+..0  [0] MF: more fragments: not set
+offset  0
+ttl  53 [time to live]
+type  6 [next: Transmission Control]
+checksum  0xE828 (59432) [correct]
+source  125.209.230.135
+destination  192.168.0.10
+******* Tcp offset34 (0x22) length=20 
+source  443
+destination  9847
+seq  0x2E043C13 (772029459)
+ack  0x9C0906D5 (2617837269)
+hlen  5
+reserved  0
+flags  0x18 (24)
+0... ....  [0] cwr: reduced (cwr)
+.0.. ....  [0] ece: ECN echo flag
+..0. ....  [0] ack: urgent, out-of-band data
+...1 ....  [1] ack: acknowledgment
+.... 1...  [1] ack: push current segment of data
+.... .0..  [0] ack: reset connection
+.... ..0.  [0] ack: synchronize connection, startup
+.... ...0  [0] fin: closing down connection
+window  260
+checksum  0xC72C (50988) [correct]
+urgent  0
+Tcp: ------------
+
+0000:*50 e0 85 cb  29 e2 00 26  66 c6 db 20  08 00*45 00    P...)..&f.. ..E.
+0010: 00 47 38 7d  40 00 35 06  e8 28 7d d1  e6 87 c0 a8    .G8}@.5..(}.....
+0020: 00 0a*01 bb  26 77 2e 04  3c 13 9c 09  06 d5 50 18    ....&w..<.....P.
+0030: 01 04 c7 2c  00 00*15 03  03 00 1a 23  ae c9 cd 7e    ...,.......#...~
+0040: dd 9f 90 bc  b9 1e 52 4f  ca 12 7d 90  63 02 22 88    ......RO..}.c.".
+0050: e3 81 2f 60  85                                       ../`.           
+
+------------
+
+
+
+number  8
+timestamp  2021-09-03 16:56:26.842
+wire length  54 bytes
+captured length  54 bytes
+******* Ethernet - "Ethernet" - offset0 (0x0) length=14 protocol suite=LAN
+destination  50:e0:85:cb:29:e2
+.... ..0. .... ....  [0] LG bit
+.... ...0 .... ....  [2] IG bit
+source  00:26:66:c6:db:20
+.... ..0. .... ....  [0] LG bit
+.... ...0 .... ....  [2] IG bit
+type  0x800 (2048) [ip version 4]
+******* Ip4 - "ip version 4" - offset14 (0xE) length=20 protocol suite=NETWORK
+version  4
+hlen  5 [5 * 4 = 20 bytes, No Ip Options]
+diffserv  0x0 (0)
+0000 00..  [0] code point: not set
+.... ..0.  [0] ECN bit: not set
+.... ...0  [0] ECE bit: not set
+length  40
+id  0x387E (14462)
+flags  0x2 (2)
+0..  [0] reserved
+.1.  [1] DF: do not fragment: set
+..0  [0] MF: more fragments: not set
+offset  0
+ttl  53 [time to live]
+type  6 [next: Transmission Control]
+checksum  0xE846 (59462) [correct]
+source  125.209.230.135
+destination  192.168.0.10
+******* Tcp offset34 (0x22) length=20 
+source  443
+destination  9847
+seq  0x2E043C32 (772029490)
+ack  0x9C0906D5 (2617837269)
+hlen  5
+reserved  0
+flags  0x11 (17)
+0... ....  [0] cwr: reduced (cwr)
+.0.. ....  [0] ece: ECN echo flag
+..0. ....  [0] ack: urgent, out-of-band data
+...1 ....  [1] ack: acknowledgment
+.... 0...  [0] ack: push current segment of data
+.... .0..  [0] ack: reset connection
+.... ..0.  [0] ack: synchronize connection, startup
+.... ...1  [1] fin: closing down connection
+window  260
+checksum  0x547D (21629) [correct]
+urgent  0
+Tcp: ------------
+
+0000:*50 e0 85 cb  29 e2 00 26  66 c6 db 20  08 00*45 00    P...)..&f.. ..E.
+0010: 00 28 38 7e  40 00 35 06  e8 46 7d d1  e6 87 c0 a8    .(8~@.5..F}.....
+0020: 00 0a*01 bb  26 77 2e 04  3c 32 9c 09  06 d5 50 11    ....&w..<2....P.
+0030: 01 04 54 7d  00 00*                                   ..T}..          
+
+------------
+
+
+
+number  9
+timestamp  2021-09-03 16:56:26.842
+wire length  54 bytes
+captured length  54 bytes
+******* Ethernet - "Ethernet" - offset0 (0x0) length=14 protocol suite=LAN
+destination  00:26:66:c6:db:20
+.... ..0. .... ....  [0] LG bit
+.... ...0 .... ....  [0] IG bit
+source  50:e0:85:cb:29:e2
+.... ..0. .... ....  [0] LG bit
+.... ...0 .... ....  [0] IG bit
+type  0x800 (2048) [ip version 4]
+******* Ip4 - "ip version 4" - offset14 (0xE) length=20 protocol suite=NETWORK
+version  4
+hlen  5 [5 * 4 = 20 bytes, No Ip Options]
+diffserv  0x0 (0)
+0000 00..  [0] code point: not set
+.... ..0.  [0] ECN bit: not set
+.... ...0  [0] ECE bit: not set
+length  40
+id  0xBA09 (47625)
+flags  0x2 (2)
+0..  [0] reserved
+.1.  [1] DF: do not fragment: set
+..0  [0] MF: more fragments: not set
+offset  0
+ttl  128 [time to live]
+type  6 [next: Transmission Control]
+checksum  0x0 (0) [incorrect: 0x1BBB]
+source  192.168.0.10
+destination  125.209.230.135
+******* Tcp offset34 (0x22) length=20 
+source  9847
+destination  443
+seq  0x9C0906D6 (2617837270)
+ack  0x2E043C33 (772029491)
+hlen  5
+reserved  0
+flags  0x10 (16)
+0... ....  [0] cwr: reduced (cwr)
+.0.. ....  [0] ece: ECN echo flag
+..0. ....  [0] ack: urgent, out-of-band data
+...1 ....  [1] ack: acknowledgment
+.... 0...  [0] ack: push current segment of data
+.... .0..  [0] ack: reset connection
+.... ..0.  [0] ack: synchronize connection, startup
+.... ...0  [0] fin: closing down connection
+window  514
+checksum  0x2526 (9510) [incorrect: 0x537E]
+urgent  0
+Tcp: ------------
+
+0000:*00 26 66 c6  db 20 50 e0  85 cb 29 e2  08 00*45 00    .&f.. P...)...E.
+0010: 00 28 ba 09  40 00 80 06  00 00 c0 a8  00 0a 7d d1    .(..@.........}.
+0020: e6 87*26 77  01 bb 9c 09  06 d6 2e 04  3c 33 50 10    ..&w........<3P.
+0030: 02 02 25 26  00 00*                                   ..%&..          
+
+------------
+
+
+
+number  10
+timestamp  2021-09-03 16:56:26.842
+wire length  54 bytes
+captured length  54 bytes
+******* Ethernet - "Ethernet" - offset0 (0x0) length=14 protocol suite=LAN
+destination  00:26:66:c6:db:20
+.... ..0. .... ....  [0] LG bit
+.... ...0 .... ....  [0] IG bit
+source  50:e0:85:cb:29:e2
+.... ..0. .... ....  [0] LG bit
+.... ...0 .... ....  [0] IG bit
+type  0x800 (2048) [ip version 4]
+******* Ip4 - "ip version 4" - offset14 (0xE) length=20 protocol suite=NETWORK
+version  4
+hlen  5 [5 * 4 = 20 bytes, No Ip Options]
+diffserv  0x0 (0)
+0000 00..  [0] code point: not set
+.... ..0.  [0] ECN bit: not set
+.... ...0  [0] ECE bit: not set
+length  40
+id  0xBA0A (47626)
+flags  0x2 (2)
+0..  [0] reserved
+.1.  [1] DF: do not fragment: set
+..0  [0] MF: more fragments: not set
+offset  0
+ttl  128 [time to live]
+type  6 [next: Transmission Control]
+checksum  0x0 (0) [incorrect: 0x1BBA]
+source  192.168.0.10
+destination  125.209.230.135
+******* Tcp offset34 (0x22) length=20 
+source  9847
+destination  443
+seq  0x9C0906D6 (2617837270)
+ack  0x2E043C33 (772029491)
+hlen  5
+reserved  0
+flags  0x14 (20)
+0... ....  [0] cwr: reduced (cwr)
+.0.. ....  [0] ece: ECN echo flag
+..0. ....  [0] ack: urgent, out-of-band data
+...1 ....  [1] ack: acknowledgment
+.... 0...  [0] ack: push current segment of data
+.... .1..  [1] ack: reset connection
+.... ..0.  [0] ack: synchronize connection, startup
+.... ...0  [0] fin: closing down connection
+window  0
+checksum  0x2526 (9510) [incorrect: 0x557C]
+urgent  0
+Tcp: ------------
+
+0000:*00 26 66 c6  db 20 50 e0  85 cb 29 e2  08 00*45 00    .&f.. P...)...E.
+0010: 00 28 ba 0a  40 00 80 06  00 00 c0 a8  00 0a 7d d1    .(..@.........}.
+0020: e6 87*26 77  01 bb 9c 09  06 d6 2e 04  3c 33 50 14    ..&w........<3P.
+0030: 00 00 25 26  00 00*                                   ..%&..          
+
+------------
+
+
+
+number  11
+timestamp  2021-09-03 16:56:26.847
+wire length  54 bytes
+captured length  54 bytes
+******* Ethernet - "Ethernet" - offset0 (0x0) length=14 protocol suite=LAN
+destination  50:e0:85:cb:29:e2
+.... ..0. .... ....  [0] LG bit
+.... ...0 .... ....  [2] IG bit
+source  00:26:66:c6:db:20
+.... ..0. .... ....  [0] LG bit
+.... ...0 .... ....  [2] IG bit
+type  0x800 (2048) [ip version 4]
+******* Ip4 - "ip version 4" - offset14 (0xE) length=20 protocol suite=NETWORK
+version  4
+hlen  5 [5 * 4 = 20 bytes, No Ip Options]
+diffserv  0x0 (0)
+0000 00..  [0] code point: not set
+.... ..0.  [0] ECN bit: not set
+.... ...0  [0] ECE bit: not set
+length  40
+id  0x387F (14463)
+flags  0x2 (2)
+0..  [0] reserved
+.1.  [1] DF: do not fragment: set
+..0  [0] MF: more fragments: not set
+offset  0
+ttl  53 [time to live]
+type  6 [next: Transmission Control]
+checksum  0xE845 (59461) [correct]
+source  125.209.230.135
+destination  192.168.0.10
+******* Tcp offset34 (0x22) length=20 
+source  443
+destination  9847
+seq  0x2E043C33 (772029491)
+ack  0x9C0906D6 (2617837270)
+hlen  5
+reserved  0
+flags  0x10 (16)
+0... ....  [0] cwr: reduced (cwr)
+.0.. ....  [0] ece: ECN echo flag
+..0. ....  [0] ack: urgent, out-of-band data
+...1 ....  [1] ack: acknowledgment
+.... 0...  [0] ack: push current segment of data
+.... .0..  [0] ack: reset connection
+.... ..0.  [0] ack: synchronize connection, startup
+.... ...0  [0] fin: closing down connection
+window  260
+checksum  0x547C (21628) [correct]
+urgent  0
+Tcp: ------------
+
+0000:*50 e0 85 cb  29 e2 00 26  66 c6 db 20  08 00*45 00    P...)..&f.. ..E.
+0010: 00 28 38 7f  40 00 35 06  e8 45 7d d1  e6 87 c0 a8    .(8.@.5..E}.....
+0020: 00 0a*01 bb  26 77 2e 04  3c 33 9c 09  06 d6 50 10    ....&w..<3....P.
+0030: 01 04 54 7c  00 00*                                   ..T|..          
+
+------------
+
+
+
+number  12
+timestamp  2021-09-03 16:56:27.466
+wire length  42 bytes
+captured length  42 bytes
+******* Ethernet - "Ethernet" - offset0 (0x0) length=14 protocol suite=LAN
+destination  ff:ff:ff:ff:ff:ff
+.... ..0. .... ....  [2] LG bit
+.... ...0 .... ....  [2] IG bit
+source  00:26:66:c6:db:20
+.... ..0. .... ....  [2] LG bit
+.... ...0 .... ....  [2] IG bit
+type  0x806 (2054)
+******* Arp offset14 (0xE) length=28 
+hardwareType  1 [ETHERNET]
+protocolType  0x800 (2048) [IP]
+hardware size  6 bytes
+protocol size  4 bytes
+op code  1 [REQUEST]
+sender MAC  00:26:66:c6:db:20
+sender IP  192.168.0.1
+target MAC  00:00:00:00:00:00
+target IP  192.168.0.4
+Arp: ------------
+
+0000:*ff ff ff ff  ff ff 00 26  66 c6 db 20  08 06*00 01    .......&f.. ....
+0010: 08 00 06 04  00 01 00 26  66 c6 db 20  c0 a8 00 01    .......&f.. ....
+0020: 00 00 00 00  00 00 c0 a8  00 04*                      ..........      
+
+------------
+
+
+
+number  13
+timestamp  2021-09-03 16:56:28.271
+wire length  434 bytes
+captured length  434 bytes
+******* Ethernet - "Ethernet" - offset0 (0x0) length=14 protocol suite=LAN
+destination  50:e0:85:cb:29:e2
+.... ..0. .... ....  [0] LG bit
+.... ...0 .... ....  [2] IG bit
+source  00:26:66:c6:db:20
+.... ..0. .... ....  [0] LG bit
+.... ...0 .... ....  [2] IG bit
+type  0x800 (2048) [ip version 4]
+******* Ip4 - "ip version 4" - offset14 (0xE) length=20 protocol suite=NETWORK
+version  4
+hlen  5 [5 * 4 = 20 bytes, No Ip Options]
+diffserv  0x0 (0)
+0000 00..  [0] code point: not set
+.... ..0.  [0] ECN bit: not set
+.... ...0  [0] ECE bit: not set
+length  420
+id  0xCE34 (52788)
+flags  0x2 (2)
+0..  [0] reserved
+.1.  [1] DF: do not fragment: set
+..0  [0] MF: more fragments: not set
+offset  0
+ttl  53 [time to live]
+type  6 [next: Transmission Control]
+checksum  0x7339 (29497) [correct]
+source  121.53.200.254
+destination  192.168.0.10
+******* Tcp offset34 (0x22) length=20 
+source  443
+destination  10296
+seq  0x2A6787B (44464251)
+ack  0x61AF6A26 (1638885926)
+hlen  5
+reserved  0
+flags  0x18 (24)
+0... ....  [0] cwr: reduced (cwr)
+.0.. ....  [0] ece: ECN echo flag
+..0. ....  [0] ack: urgent, out-of-band data
+...1 ....  [1] ack: acknowledgment
+.... 1...  [1] ack: push current segment of data
+.... .0..  [0] ack: reset connection
+.... ..0.  [0] ack: synchronize connection, startup
+.... ...0  [0] fin: closing down connection
+window  64
+checksum  0x71EF (29167) [correct]
+urgent  0
+Tcp: ------------
+
+0000:*50 e0 85 cb  29 e2 00 26  66 c6 db 20  08 00*45 00    P...)..&f.. ..E.
+0010: 01 a4 ce 34  40 00 35 06  73 39 79 35  c8 fe c0 a8    ...4@.5.s9y5....
+0020: 00 0a*01 bb  28 38 02 a6  78 7b 61 af  6a 26 50 18    ....(8..x{a.j&P.
+0030: 00 40 71 ef  00 00*78 01  00 00 37 60  66 e0 a0 02    .@q...x...7`f...
+0040: 1b a8 9b 26  b3 5a d0 20  57 e7 9a a8  2c e7 13 e5    ...&.Z. W...,...
+0050: dc 1d 10 42  d0 e6 f4 11  c5 27 25 1c  ac c4 76 65    ...B.....'%...ve
+0060: 58 16 2a 75  05 a4 a5 a6  fd 0d 45 09  3b f7 75 b4    X.*u......E.;.u.
+0070: 14 13 a8 f7  b6 ce ae 02  82 5d 15 8f  90 7b 80 04    .........]...{..
+0080: a0 55 69 ee  86 af 0a d2  fc 96 58 59  2e 79 26 0e    .Ui.......XY.y&.
+0090: d1 a2 1e 42  1d 1e ea 6e  38 01 45 39  59 ff f6 75    ...B...n8.E9Y..u
+00a0: ab 03 cf c1  f1 bf dd 48  fa 07 22 39  da 46 03 1c    .......H.."9.F..
+7d 86 5c 3d  db 64 92 2d  0f a5 6b ec  dc d5 01 4e    }.\.d.-..k....N
+00c0: 03 aa 64 f3  1c ab 86 6d  69 c8 f9 e7  99 f5 40 cf    ..d....mi.....@.
+00d0: 88 b1 0a ec  3b 0b 60 9b  80 1c d8 c8  80 17 cf a2    ....;.`.........
+00e0: ab f9 bd a2  d7 53 45 08  fa 83 ff c0  ae 3c 93 fb    .....SE......<..
+00f0: 90 28 3f 42  68 d3 db 1c  0c 64 56 93  14 55 dc 59    .(?Bh....dV..U.Y
+0100: 2b 9d 2e 7c  b3 a6 26 b0  f1 7f 52 c7  65 5a 46 c9    +..|..&...R.eZF.
+0110: 38 8f ad 05  9f d1 8b 27  ca 7c 8d 75  13 48 f4 bf    8......'.|.u.H..
+0120: b0 44 86 66  1c 24 c3 39  a8 7c 8b e8  35 b0 e5 9b    .D.f.$.9.|..5...
+0130: 22 ac d3 12  29 b9 4d da  64 27 42 9a  ea 14 6a 30    "...).M.d'B...j0
+0140: 13 60 f3 4f  28 3c bf a7  3d 62 ac 1b  83 33 9a 65    .`.O(<..=b...3.e
+0150: 99 28 8d c9  9e 44 b6 9e  f4 91 f5 e2  a6 1c 5c ae    .(...D........\.
+0160: 5d df bf 62  4b 6d d5 a8  b1 e3 30 8c  97 59 46 8c    ]..bKm....0..YF.
+85 df ec f6  45 83 3d 8d  65 bb 49 5d  cf 2a 84 74    ....E..e.I].*.t
+0180: f7 ad 04 f9  92 ca 67 b8  cd db 30 07  9c 95 6f 1b    ......g...0...o.
+0190: c2 89 40 30  62 bf dc 5e  73 f8 66 03  6e 09 1b 31    ..@0b..^s.f.n..1
+01a0: 81 1f 06 29  13 f8 b7 c8  f4 02 33 e2  91 45 eb 51    ..)......3..E.Q
+01b0: 68 82                                                 h.              
+
+------------
+
+
+
+number  14
+timestamp  2021-09-03 16:56:28.476
+wire length  434 bytes
+captured length  434 bytes
+******* Ethernet - "Ethernet" - offset0 (0x0) length=14 protocol suite=LAN
+destination  50:e0:85:cb:29:e2
+.... ..0. .... ....  [0] LG bit
+.... ...0 .... ....  [2] IG bit
+source  00:26:66:c6:db:20
+.... ..0. .... ....  [0] LG bit
+.... ...0 .... ....  [2] IG bit
+type  0x800 (2048) [ip version 4]
+******* Ip4 - "ip version 4" - offset14 (0xE) length=20 protocol suite=NETWORK
+version  4
+hlen  5 [5 * 4 = 20 bytes, No Ip Options]
+diffserv  0x0 (0)
+0000 00..  [0] code point: not set
+.... ..0.  [0] ECN bit: not set
+.... ...0  [0] ECE bit: not set
+length  420
+id  0xCE35 (52789)
+flags  0x2 (2)
+0..  [0] reserved
+.1.  [1] DF: do not fragment: set
+..0  [0] MF: more fragments: not set
+offset  0
+ttl  53 [time to live]
+type  6 [next: Transmission Control]
+checksum  0x7338 (29496) [correct]
+source  121.53.200.254
+destination  192.168.0.10
+******* Tcp offset34 (0x22) length=20 
+source  443
+destination  10296
+seq  0x2A6787B (44464251)
+ack  0x61AF6A26 (1638885926)
+hlen  5
+reserved  0
+flags  0x18 (24)
+0... ....  [0] cwr: reduced (cwr)
+.0.. ....  [0] ece: ECN echo flag
+..0. ....  [0] ack: urgent, out-of-band data
+...1 ....  [1] ack: acknowledgment
+.... 1...  [1] ack: push current segment of data
+.... .0..  [0] ack: reset connection
+.... ..0.  [0] ack: synchronize connection, startup
+.... ...0  [0] fin: closing down connection
+window  64
+checksum  0x71EF (29167) [correct]
+urgent  0
+Tcp: ------------
+
+0000:*50 e0 85 cb  29 e2 00 26  66 c6 db 20  08 00*45 00    P...)..&f.. ..E.
+0010: 01 a4 ce 35  40 00 35 06  73 38 79 35  c8 fe c0 a8    ...5@.5.s8y5....
+0020: 00 0a*01 bb  28 38 02 a6  78 7b 61 af  6a 26 50 18    ....(8..x{a.j&P.
+0030: 00 40 71 ef  00 00*78 01  00 00 37 60  66 e0 a0 02    .@q...x...7`f...
+0040: 1b a8 9b 26  b3 5a d0 20  57 e7 9a a8  2c e7 13 e5    ...&.Z. W...,...
+0050: dc 1d 10 42  d0 e6 f4 11  c5 27 25 1c  ac c4 76 65    ...B.....'%...ve
+0060: 58 16 2a 75  05 a4 a5 a6  fd 0d 45 09  3b f7 75 b4    X.*u......E.;.u.
+0070: 14 13 a8 f7  b6 ce ae 02  82 5d 15 8f  90 7b 80 04    .........]...{..
+0080: a0 55 69 ee  86 af 0a d2  fc 96 58 59  2e 79 26 0e    .Ui.......XY.y&.
+0090: d1 a2 1e 42  1d 1e ea 6e  38 01 45 39  59 ff f6 75    ...B...n8.E9Y..u
+00a0: ab 03 cf c1  f1 bf dd 48  fa 07 22 39  da 46 03 1c    .......H.."9.F..
+7d 86 5c 3d  db 64 92 2d  0f a5 6b ec  dc d5 01 4e    }.\.d.-..k....N
+00c0: 03 aa 64 f3  1c ab 86 6d  69 c8 f9 e7  99 f5 40 cf    ..d....mi.....@.
+00d0: 88 b1 0a ec  3b 0b 60 9b  80 1c d8 c8  80 17 cf a2    ....;.`.........
+00e0: ab f9 bd a2  d7 53 45 08  fa 83 ff c0  ae 3c 93 fb    .....SE......<..
+00f0: 90 28 3f 42  68 d3 db 1c  0c 64 56 93  14 55 dc 59    .(?Bh....dV..U.Y
+0100: 2b 9d 2e 7c  b3 a6 26 b0  f1 7f 52 c7  65 5a 46 c9    +..|..&...R.eZF.
+0110: 38 8f ad 05  9f d1 8b 27  ca 7c 8d 75  13 48 f4 bf    8......'.|.u.H..
+0120: b0 44 86 66  1c 24 c3 39  a8 7c 8b e8  35 b0 e5 9b    .D.f.$.9.|..5...
+0130: 22 ac d3 12  29 b9 4d da  64 27 42 9a  ea 14 6a 30    "...).M.d'B...j0
+0140: 13 60 f3 4f  28 3c bf a7  3d 62 ac 1b  83 33 9a 65    .`.O(<..=b...3.e
+0150: 99 28 8d c9  9e 44 b6 9e  f4 91 f5 e2  a6 1c 5c ae    .(...D........\.
+0160: 5d df bf 62  4b 6d d5 a8  b1 e3 30 8c  97 59 46 8c    ]..bKm....0..YF.
+85 df ec f6  45 83 3d 8d  65 bb 49 5d  cf 2a 84 74    ....E..e.I].*.t
+0180: f7 ad 04 f9  92 ca 67 b8  cd db 30 07  9c 95 6f 1b    ......g...0...o.
+0190: c2 89 40 30  62 bf dc 5e  73 f8 66 03  6e 09 1b 31    ..@0b..^s.f.n..1
+01a0: 81 1f 06 29  13 f8 b7 c8  f4 02 33 e2  91 45 eb 51    ..)......3..E.Q
+01b0: 68 82                                                 h.              
+
+------------
+
+
+
+number  15
+timestamp  2021-09-03 16:56:28.476
+wire length  66 bytes
+captured length  66 bytes
+******* Ethernet - "Ethernet" - offset0 (0x0) length=14 protocol suite=LAN
+destination  00:26:66:c6:db:20
+.... ..0. .... ....  [0] LG bit
+.... ...0 .... ....  [0] IG bit
+source  50:e0:85:cb:29:e2
+.... ..0. .... ....  [0] LG bit
+.... ...0 .... ....  [0] IG bit
+type  0x800 (2048) [ip version 4]
+******* Ip4 - "ip version 4" - offset14 (0xE) length=20 protocol suite=NETWORK
+version  4
+hlen  5 [5 * 4 = 20 bytes, No Ip Options]
+diffserv  0x0 (0)
+0000 00..  [0] code point: not set
+.... ..0.  [0] ECN bit: not set
+.... ...0  [0] ECE bit: not set
+length  52
+id  0xBC5C (48220)
+flags  0x2 (2)
+0..  [0] reserved
+.1.  [1] DF: do not fragment: set
+..0  [0] MF: more fragments: not set
+offset  0
+ttl  128 [time to live]
+type  6 [next: Transmission Control]
+checksum  0x0 (0) [incorrect: 0x3B81]
+source  192.168.0.10
+destination  121.53.200.254
+******* Tcp offset34 (0x22) length=32 
+source  10296
+destination  443
+seq  0x61AF6A26 (1638885926)
+ack  0x2A679F7 (44464631)
+hlen  8
+reserved  0
+flags  0x10 (16)
+0... ....  [0] cwr: reduced (cwr)
+.0.. ....  [0] ece: ECN echo flag
+..0. ....  [0] ack: urgent, out-of-band data
+...1 ....  [1] ack: acknowledgment
+.... 0...  [0] ack: push current segment of data
+.... .0..  [0] ack: reset connection
+.... ..0.  [0] ack: synchronize connection, startup
+.... ...0  [0] fin: closing down connection
+window  511
+checksum  0x30D (781) [incorrect: 0xAB3]
+urgent  0
++ NoOp: offset20 length=1
+code  1
+length  1 [implied length from option type]
+Tcp: ------------
+
+0000:*00 26 66 c6  db 20 50 e0  85 cb 29 e2  08 00*45 00    .&f.. P...)...E.
+0010: 00 34 bc 5c  40 00 80 06  00 00 c0 a8  00 0a 79 35    .4.\@.........y5
+0020: c8 fe*28 38  01 bb 61 af  6a 26 02 a6  79 f7 80 10    ..(8..a.j&..y...
+0030: 01 ff 03 0d  00 00 01 01  05 0a 02 a6  78 7b 02 a6    ............x{..
+0040: 79 f7*                                                y.              
+
+------------
+
